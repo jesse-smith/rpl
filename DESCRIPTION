@@ -1,0 +1,12 @@
+Package: rpl
+Title: Pipe-able Syntax for R-Polars
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jesse", "Smith", , "jesse96smith@gmail.com", role = c("aut", "cre"))
+Description: This package contains wrappers around polars methods that chain together
+    using `|>` instead of `$`. This enables more idiomatic R code that is easier to
+    read and write (for both humans and static analyzers).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
